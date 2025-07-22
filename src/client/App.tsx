@@ -1,7 +1,12 @@
 import "./App.css";
+import VinForm from "./components/VinForm";
 
 function App() {
-  return <>Hello world!</>;
+  return (
+    <>
+      <VinForm />
+    </>
+  );
 }
 
 export default App;
